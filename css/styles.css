@@ -33,11 +33,12 @@ header{position:sticky;top:0;z-index:40;backdrop-filter:saturate(1.2) blur(9px);
 .brand{display:flex;align-items:center;gap:11px;text-decoration:none}
 .brand img{width:34px;height:34px;display:block}
 .brand .name{font-family:"Spline Sans Mono",monospace;letter-spacing:.2em;font-size:.92rem;font-weight:500;text-transform:uppercase;color:var(--g4)}
-.brand img.brand-wordmark{width:auto;height:30px}
+.brand img.brand-wordmark{width:auto;height:34px;max-width:none}
 nav.main{display:flex;align-items:center;gap:28px}
 nav.main a{text-decoration:none;font-size:.95rem;color:var(--ink-soft);transition:color .2s}
 nav.main a:hover,nav.main a.active{color:var(--g4)}
 nav.main a.active{font-weight:600}
+nav.main a.btn,nav.main a.btn:hover{color:#fff}
 .btn{display:inline-flex;align-items:center;gap:9px;background:linear-gradient(90deg,var(--g3),var(--g4));color:#fff;text-decoration:none;font-weight:600;font-size:.95rem;padding:11px 21px;border-radius:999px;border:0;transition:transform .18s,box-shadow .2s,filter .2s;box-shadow:0 6px 16px -10px rgba(7,99,36,.8)}
 .btn:hover{transform:translateY(-1px);filter:saturate(1.1) brightness(1.04);box-shadow:0 12px 26px -12px rgba(7,99,36,.85)}
 .btn.ghost{background:transparent;color:var(--g4);border:1px solid var(--line);box-shadow:none}
